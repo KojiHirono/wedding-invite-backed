@@ -1,0 +1,25 @@
+# Eclipse??
+*.launch
+.settings/
+.project
+.classpath
+
+# Java??????
+/bin/
+/target/
+/build/
+*.class
+*.jar
+*.war
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+
+# ?????????
+.env
