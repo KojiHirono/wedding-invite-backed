@@ -14,7 +14,8 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // すべてのAPIに適用
-                        .allowedOrigins("http://localhost:3000") // Next.js のURLを許可
+//                        .allowedOrigins("http://localhost:3000") // Next.js のURLを許可
+                        .allowedOrigins("https://wedding-invite-app-pi.vercel.app") // フロントのURL
                         .allowedMethods("GET", "POST", "PUT", "DELETE") // 許可するHTTPメソッド
                         .allowCredentials(true);
             }
